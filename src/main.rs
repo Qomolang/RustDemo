@@ -4,6 +4,8 @@ use clap::{Arg, App};
 
 
 fn main() {
+    print!("step into");
+
     //命令行简介 
     let matches = App::new("kt")
       .version("0.1.0")
